@@ -41,7 +41,7 @@ const Contact = () => {
         </a>
       </motion.div>
       <motion.a
-        href="/AnoushkaResume.pdf"
+        href={`${process.env.PUBLIC_URL}/AnoushkaResume.pdf`}
         download
         className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
         whileHover={{ scale: 1.05 }}
