@@ -10,7 +10,7 @@ const Hero = () => {
     >
       {/* Profile Image */}
       <motion.img
-        src="/profile.jpg"
+        src={`${process.env.PUBLIC_URL}/profile.jpg`}
         alt="Profile"
         className="w-48 h-48 rounded-full object-cover border-4 border-white shadow-lg mb-6"
         initial={{ opacity: 0, scale: 0.8 }}
