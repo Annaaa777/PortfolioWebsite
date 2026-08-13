@@ -22,18 +22,18 @@ const Contact = () => {
         </p>
 
         <h2 className="text-4xl md:text-6xl font-semibold tracking-[-0.035em]">
-          Have an interesting idea?
-          <span className="block text-zinc-500 mt-2">I'd love to hear it.</span>
+        Let's build something useful.
+        <span className="block text-zinc-500 mt-2">Or just say hello.</span>
         </h2>
 
         <p className="text-zinc-400 text-lg leading-8 max-w-2xl mx-auto mt-7">
-          I'm always happy to connect about technology, product, data, research,
-          or new opportunities.
+         I'm always happy to connect about software, AI, data, product, research,
+         or new opportunities.
         </p>
 
         <div className="flex flex-wrap justify-center gap-4 mt-9">
           <a
-            href="mailto:das57@wisc.edu"
+            href="mailto:rinkyanoushka@gmail.com"
             className="group inline-flex items-center gap-2 bg-white text-zinc-950 px-5 py-3 rounded-xl font-medium hover:bg-zinc-200 transition"
           >
             Say hello
@@ -52,7 +52,7 @@ const Contact = () => {
 
         <div className="flex justify-center items-center gap-6 mt-10 text-xl text-zinc-500">
           <a
-            href="mailto:das57@wisc.edu"
+            href="mailto:rinkyanoushka@gmail.com"
             aria-label="Email"
             className="hover:text-white transition"
           >

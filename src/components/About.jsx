@@ -8,7 +8,7 @@ const highlights = [
   },
   {
     title: "Interested In",
-    text: "Product, AI, software, analytics & data-driven problem solving",
+    text: "Software, AI, data products, analytics & product development",
   },
   {
     title: "Currently",
@@ -41,19 +41,18 @@ const About = () => {
           </div>
 
           <div>
-            <p className="text-lg text-zinc-300 leading-8">
-              I'm a Computer Science and Data Science student at the University
-              of Wisconsin–Madison. My experience spans software development,
-              data analytics, machine learning research, and product-focused
-              projects.
-            </p>
+          <p className="text-lg text-zinc-300 leading-8">
+            I'm a Computer Science and Data Science student at the University of
+            Wisconsin–Madison. I enjoy working on problems that sit between
+            technology, data, and real user needs.
+          </p>
 
-            <p className="text-lg text-zinc-400 leading-8 mt-5">
-              I especially enjoy work where I can understand a problem,
-              explore the data or technology behind it, and turn that into
-              something useful — whether that's an application, an automated
-              workflow, a dashboard, or a new product idea.
-            </p>
+          <p className="text-lg text-zinc-400 leading-8 mt-5">
+            I like starting with a messy problem, understanding what actually needs
+            to be solved, experimenting with different approaches, and turning that
+            into something people can use — whether that's a software tool, an
+            automated workflow, a dashboard, or an AI-powered product.
+          </p>
           </div>
         </motion.div>
 

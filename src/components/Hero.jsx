@@ -37,7 +37,7 @@ const Hero = () => {
           >
             Hi, I'm Anoushka.
             <span className="block text-zinc-500 mt-2">
-              I build with data & technology.
+              I build useful products with software, data & AI.
             </span>
           </motion.h1>
 
@@ -47,9 +47,9 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.7 }}
           >
-            Computer Science & Data Science student exploring the intersection
-            of software, AI, analytics, and product. I enjoy turning messy
-            problems into useful, thoughtful solutions.
+            Computer Science & Data Science student at UW–Madison interested in
+            building technology that turns complex problems into useful, thoughtful
+            products.
           </motion.p>
 
           <motion.div
