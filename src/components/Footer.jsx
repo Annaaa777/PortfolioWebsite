@@ -1,17 +1,14 @@
 import React from "react";
-import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
-    <motion.footer
-      className="bg-gray-800 py-4 text-center text-gray-400"
-      initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{ duration: 1 }}
-      viewport={{ once: true }}
-    >
-      © {new Date().getFullYear()} Anoushka Das | Built with React & Tailwind CSS
-    </motion.footer>
+    <footer className="border-t border-white/5 bg-zinc-950 px-6 py-7">
+      <div className="max-w-6xl mx-auto flex flex-col sm:flex-row gap-3 items-center justify-between text-sm text-zinc-600">
+        <p>© {new Date().getFullYear()} Anoushka Das</p>
+
+        <p>Designed & built with React.</p>
+      </div>
+    </footer>
   );
 };
 

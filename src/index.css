@@ -4,5 +4,26 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 72px;
 }
 
+body {
+  margin: 0;
+  background-color: #09090b;
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: rgba(129, 140, 248, 0.3);
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
